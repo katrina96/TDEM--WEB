@@ -1,0 +1,46 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  z-index: 1;
+}
+
+.parent div {
+  padding: 10%;
+  margin: 10px;
+  text-align: center;
+
+
+  color: #ffffff;
+
+
+  z-index: 1;
+
+}
+
+a {
+  font-size: 50px;
+}
+
+.gh {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 0;
+  position: absolute;
+  top: 10px;
+
+}
+
+.backHigh {
+  background-color: #1332cf6f;
+
+}
+
+a {
+  text-decoration: none
+}
+
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
